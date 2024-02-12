@@ -19,7 +19,7 @@ startBtn.addEventListener('click', function () {
     clearInterval(intervalId);
     intervalId = setInterval(function () {
         milliseconds++;
-        if (milliseconds >= 1000) {
+        if (milliseconds >= 250) {
             milliseconds = 0;
             seconds++;
             if (seconds >= 60) {
